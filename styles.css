@@ -1,0 +1,43 @@
+h1{
+    font-size: 3rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    /*color: #131300;*/
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, #dc19e3 0%, #9e05b9 100%);
+    text-align: center;
+
+}
+input{
+    flex:1;
+    border: none;
+    outline: none;
+    background: rgba(175, 175, 175, 0.591);
+    padding: 15px;
+    font-weight: 14px;
+    width: 30%;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 15px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    
+}
+
+button:hover {
+    background: #d34535;
+    transition: all .2s ease;
+}
+
+ul li{
+    font-size: 25px;
+}
+
+ul li.done{
+    text-decoration:line-through;
+}
